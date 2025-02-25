@@ -24,16 +24,16 @@ import com.google.gson.Gson;
 public class AddStream {
 
     // 설정 정보
-    private static final String MIST_API_URL = "http://192.168.50.20:4242/api/addstream";
-    private static final String MIST_USERNAME = "mist";
-    private static final String MIST_PASSWORD = "mist";
+    private static final String MIST_API_URL = "http://<IP주소>:4242/api/addstream";
+    private static final String MIST_USERNAME = "<MistServer 사용자명>";
+    private static final String MIST_PASSWORD = "<MistServer 비밀번호>";
     private static final String WATCH_DIR = "C:\\Users\\SEWONIT\\Downloads"; // 감시 디렉토리 (윈도우)
     private static final String TARGET_DIR = "/app/media"; // 타겟 디렉토리 (리눅스)
 
-    private static final String SFTP_HOST = "192.168.50.20";
+    private static final String SFTP_HOST = "<IP주소>";
     private static final int SFTP_PORT = 22;
-    private static final String SFTP_USERNAME = "test";
-    private static final String SFTP_PASSWORD = "test";
+    private static final String SFTP_USERNAME = "<Linux 사용자명>";
+    private static final String SFTP_PASSWORD = "<Linux 비밀번호>";
 
     public static void main(String[] args) {
         try {
