@@ -1,12 +1,12 @@
 MistServer AddStream API
--------------------------
-# 실행환경
+========================
+### 실행환경
 - 전자정부프레임워크 3.10.0
 - maven-repository 3.10.0
 - jdk 1.8
-# MistServer API 호출 흐름
+### MistServer API 호출 흐름
 1. Challenge 요청 → challenge 값 추출
-   1-1. 요청
+   1. 요청
     - {"authorize": {"username": "<사용자명>","password": "<비밀번호>"}}
     2) 응답
     - {"authorize": {"status": "CHALL","challenge": "<challenge 값>"}}
