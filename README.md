@@ -8,7 +8,7 @@ MistServer AddStream API
 1. Challenge 요청 → challenge 값 추출
    1. 요청
     - {"authorize": {"username": "<사용자명>","password": "<비밀번호>"}}
-    2) 응답
+   2. 응답
     - {"authorize": {"status": "CHALL","challenge": "<challenge 값>"}}
 3. MD5 해시 계산 → 인증 정보 생성
   2-1. MD5 해싱
