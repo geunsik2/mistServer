@@ -32,8 +32,8 @@ public class AddStream {
 
     private static final String SFTP_HOST = "192.168.50.20";
     private static final int SFTP_PORT = 22;
-    private static final String SFTP_USERNAME = "root";
-    private static final String SFTP_PASSWORD = "itwon@1220";
+    private static final String SFTP_USERNAME = "test";
+    private static final String SFTP_PASSWORD = "test";
 
     public static void main(String[] args) {
         try {
